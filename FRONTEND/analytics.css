@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #3498db !important; /* Match navbar color */
+}
+
+.navbar-brand {
+    color: #ffffff !important; /* White brand color */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White link color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3498db !important; /* Change hover color */
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h1.text-center {
+    color: #2c3e50;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: #f8f9fa; /* Light background */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+   .container {
+       padding: 15px; /* Reduce padding on smaller screens */
+   }
+}
