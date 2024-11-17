@@ -14,6 +14,3 @@ class WaterLeakageDataView(APIView):
             'leak_severity': random.choice(['None', 'Low', 'Medium', 'High'])
         }
         return Response(leak_data)
-
-    # def list(self, requst):
-    #     
